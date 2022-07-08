@@ -18,3 +18,33 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.header {
+  display: grid;
+  grid-template-columns: 128px 128px 128px;
+  justify-content: stretch;
+  column-gap: 35vw;
+  padding: 5px;
+  height: 15vh
+}
+
+.clock {
+  border:1px solid black;
+  justify-self: right;
+  align-self: center;
+  width: 15vw;
+}
+
+.footer {
+  height: 15vh;
+  padding: 5px;
+  height:10vh;
+  text-justify: right;
+}
+
+.buttons {
+  border:1px solid black; 
+  padding:5px; 
+  width:15vh;
+  height:15vh;
+}

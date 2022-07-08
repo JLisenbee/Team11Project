@@ -22,13 +22,18 @@
 
 .header {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 128px 128px 128px;
+  justify-content: stretch;
+  column-gap: 35vw;
   padding: 5px;
   height: 15vh
 }
 
 .clock {
   border:1px solid black;
+  justify-self: right;
+  align-self: center;
+  width: 15vw;
 }
 
 .footer {
