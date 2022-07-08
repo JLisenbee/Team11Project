@@ -1,0 +1,22 @@
+[
+    {
+    "name": "Movies",
+    "description": "View the selection of inflight movies for your viewing pleasure!",
+    "linkPath": "movies.html"
+    },
+    {
+    "name": "Games",
+    "description": "Play a few of the classics while you sit back and relax...",
+    "linkPath": "games.html"
+    },
+    {
+    "name": "Flight Tracker",
+    "description": "Does being able to see exactly how far you've come make the trip seem shorter? Come take a look!",
+    "linkPath": "tracker.html"
+    },
+    {
+    "name": "Food",
+    "description": "Feeling a little peckish? Our kitchen is at your command!",
+    "linkPath": "food.html"
+    }
+]
