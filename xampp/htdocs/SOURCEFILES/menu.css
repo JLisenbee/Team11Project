@@ -33,6 +33,9 @@ body {
   font-size: 2.5vw;
 }
 
+.test {
+  margin-top: auto;
+}
 
 .poster {
   padding-right: 2%;
@@ -58,14 +61,13 @@ body {
 
 .clock {
   border:1px solid black;
-  /* justify-self: right;
-  align-self: center; */
+  justify-self: right;
+  align-self: center;
   width: 15vw;
 }
 
 .footer {
   padding: 5px;
-  /* width: 95vw; */
   display: flex;
   flex-flow: row nowrap;
   align-items: flex-end;
