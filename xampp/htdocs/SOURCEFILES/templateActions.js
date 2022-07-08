@@ -1,13 +1,18 @@
-function goHome() {
-    window.location.href = "../home/home.html";
+function goHome(location) {
+    if (typeof(location) == 'undefined') {
+        window.location.href = "../home/home.html";
+    } else {
+        window.location.href = location;
+
+    }
 }
 
 function goGames() {
-    window.location.href = "../games/games.html";
+    window.location.href = "../games.html";
 }
 
 function goFood() {
-    window.location.href = "../food/food.html";
+    window.location.href = "../food.html";
 }
 
 function goCheckout() {
@@ -15,9 +20,10 @@ function goCheckout() {
 }
 
 function goMovies() {
-    window.location.href = "../movies/movies.html";
+    window.location.href = "../movies.html";
 }
 
 function goFTracker() {
     window.location.href = "../flighttracker/flighttracker.html";
 }
+
