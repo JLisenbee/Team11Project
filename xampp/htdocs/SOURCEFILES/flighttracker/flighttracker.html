@@ -2,16 +2,28 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="games.css">
+		<link rel="stylesheet" type="text/css" href="flighttracker.css">
 	</head>
 	<body>
 		<div class="header">
 			<img src="../homeButton.png" alt="Return to the Home Page" onclick="goHome()" style="border:1px solid black; padding:5px" width="128px" height="128px"> 
-			<h1 style="justify-self: center;">Games</h2> 
+			<h1 style="justify-self: center;">Flight Tracker</h2> 
 			<h1 id="clock" class="clock" onload="clock()">Clock</h2>
 		</div>
 		
-		<div class="demo"></div>
+		<div class="demo">
+			<div class="info">
+				<p><span class="listheads">Altitude:</span> 35,000ft</p>
+				<p><span class="listheads">Estimated Time of Arrival:</span> 6:06PM (local time)</p>
+				<p><span class="listheads">Current Time:</span> 3:21PM (local time)</p>
+				<p><span class="listheads">Time at Destination:</span> 4:06 (local time)</p>
+				<p><span class="listheads">Destination Temp:</span> 74F</p>
+				<p><span class="listheads">Air Speed:</span> 546 MPH</p>
+			</div>
+			<div class="map">
+				<img src="FlightRadar.jpg" alt="Where you are on the globe, 24/7" height="100%" width="100%">
+			</div>
+		</div>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script src="games.js"></script>
 		<script src="../templateActions.js"></script>

@@ -1,7 +1,6 @@
 var xhttp = new XMLHttpRequest(); xhttp.onreadystatechange = 
 function() { 
 if (this.readyState == 4 && this.status == 200) { 
-    var gamesList = JSON.parse(this.responseText)
     for (var i = 0; i < gamesList.length; i++) {
         var newGame = $('<div></div>').addClass("game");
         $(newGame).append($("<img src='" + gamesList[i].logo + ".png'/>").addClass("logo"))

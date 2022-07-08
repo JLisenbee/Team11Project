@@ -16,8 +16,6 @@ if (this.readyState == 4 && this.status == 200) {
             $(".item").css("border", "3px dotted black");
             $(this).css("border", "3px solid red");
         });
-        if(i == 0) $(newItem).append($("<link href='../movies/movies.html'>"))
-        if(i == 1) $(newItem).append($("<link href='../games/games.html'>"))
         $(".demo").append(newItem)
     }
 } 
